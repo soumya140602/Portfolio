@@ -18,7 +18,7 @@ const profile = {
   github: "https://github.com/soumya140602",
   leetcode: "https://leetcode.com/u/SoumyaAgar/",
   location: "India",
-  resume: "${import.meta.env.BASE_URL}assets/Soumya-Agrawal-Resume.pdf"
+  resume: "/Portfolio/assets/Soumya-Agrawal-Resume.pdf"
 };
 
 // Replace the LeetCode URL above with your actual profile URL when ready.
@@ -58,7 +58,7 @@ const projects = [
   description:
     "A full-stack gas agency management system designed to handle customer registrations, cylinder bookings, connections, suppliers and day-to-day agency operations through dedicated user and admin workflows.",
   tags: ["React JS", "Java", "JavaScript", "HTML/CSS"],
-  image: "${import.meta.env.BASE_URL}assets/gasimg.jpg",
+  image: "/Portfolio/assets/gasimg.jpg",
   github: "https://github.com/soumya140602/gas-agency",
   highlights: [
     "User & Admin Dashboards",
@@ -136,7 +136,7 @@ const certifications = [
     description:
       "Awarded for actively participating in the AI Builder Workshop held at the Paytm Office and demonstrating enthusiasm and commitment toward learning and building with Artificial Intelligence.",
     credential: "AIBUI-AQ7DSW",
-    image: "${import.meta.env.BASE_URL}assets/ai-builder-workshop-certificate.jpeg",
+    image: "/Portfolio/assets/ai-builder-workshop-certificate.jpeg",
     type: "WORKSHOP"
   },
   {
